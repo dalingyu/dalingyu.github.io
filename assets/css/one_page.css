@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+}
+
+.header {
+    height: 80px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.header .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .menu li {
+    text-align: center;
+    transition: 0.4s;
+}
+
+.header .menu li:hover {
+    color: red;
+}
+
+.header .menu .en {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.header .menu .zh {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
