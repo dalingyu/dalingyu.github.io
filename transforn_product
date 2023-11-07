@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="description" content="This is my first page" />
+</head>
+
+<body>
+    <h1>Hello</h1>
+</body>
+
+<style>
+    .product-discount {
+        margin: 10px auto;
+        height: 500px;
+        width: 300px;
+        background: #dedede;
+        padding: 10px;
+    }
+
+    .product-discount .product-image {
+        width: 100%;
+        height: 200px;
+        background: rgb(255, 127, 95);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .product-discount .product-image .discount-bar {
+        position: absolute;
+        top: 25px;
+        right: -120px;
+        background: #fff;
+        color: red;
+        transform: rotate(45deg);
+        width: 300px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .product-discount .product-title {
+        margin: 10px 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .product-discount .product-description {
+        line-height: 30px;
+    }
+</style>
+<div class="product-discount">
+    <div class="product-image">
+        <div>Image</div>
+        <div class="discount-bar">off 20%</div>
+    </div>
+    <div class="content">
+        <h3 class="product-title">Product Name</h3>
+        <div class="product-description">
+            <p>Product description.</p>
+            <p>Product description.</p>
+        </div>
+    </div>
+</div>
+
+</html>

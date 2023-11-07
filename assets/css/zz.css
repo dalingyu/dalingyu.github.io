@@ -35,3 +35,44 @@ header {
 .link-button li.active a {
     color: #0011fd
 }
+
+.header .left-side::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15%;
+    height: 70%;
+    width: 2px;
+    background: #eeeeee;
+}
+
+.main {
+    height: 150vh;
+}
+
+.footer {
+    background: #fafafa
+}
+
+.footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.footer .copyright .copyright-icon {
+    margin-right: 5px;
+}
+
+.footer .top-side {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 60px;
+}
+
+.footer .menu {
+    display: flex;
+    gap: 60px;
+}
