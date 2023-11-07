@@ -1,0 +1,19 @@
+.product-warp {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product-warp>div {
+    width: calc(32%);
+}
+
+.product-item {
+    background: #dedede;
+    padding: 10px;
+}
+
+.product-image img {
+    max-width: 100%;
+}
